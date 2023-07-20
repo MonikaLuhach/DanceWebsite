@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbar{
+    background-color: #d43b3b;
+    padding: 15px 5px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     /* justify-content: center; */
+    align-items: center;
+}
+#logo{
+    font-size: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    filter: invert(1);
+}
+#logo img{
+    height: 45px;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+   padding: 15px 30px;
+   color: #fff;
+}
+#navbar li a:hover{ 
+     color: black;
+ }
+#introSection{
+    background:  url(static/filename.jpg);
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45px;
+     height: 455px;
+     color: #fff;
+     background-color: red;
+}
+#introSection div.small{
+    font-size: 32px;
+    padding: 5px;
+}
+#missionSection{
+    height: 355px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-img img{
+    margin-top: 28px;
+    width: auto;
+    height: 102px;
+    padding-right: 261px;
+ }
+ p{
+    margin-left: 89px;
+    padding: 2px 61px;
+    width: 383px;
+    margin-top: -72px;
+    font-size: 20px;
+ }
+.card h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.card{
+    background-color: #fff6ff;
+display: inline-block;
+border: 2px solid black;
+border-radius: 5px;
+width:25%;
+margin: 25px 45px;
+height: 205px;
+}
+#sponsorsSection{
+     height: 300px;
+     background-color: #fbd6d6c7;
+}
+#sponsors{
+    height: 21px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimage{
+    margin-left: 183px;
+    height: 56%;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footer{
+       height: 60px;
+       background-color: black; 
+       color: #fff; 
+       display: flex;
+       justify-content: center;
+       align-items: center;  
+    }
